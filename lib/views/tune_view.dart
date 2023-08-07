@@ -15,7 +15,13 @@ class TuneView extends StatelessWidget {
       ),
       body:const Column(
         children: [
-          CustomTuneItem(),
+          CustomTuneItem(color: Colors.red,),
+          CustomTuneItem(color: Colors.green,),
+          CustomTuneItem(color: Colors.blueAccent,),
+          CustomTuneItem(color: Colors.black,),
+          CustomTuneItem(color: Colors.red,),
+          CustomTuneItem(color: Colors.yellow,),
+          CustomTuneItem(color: Colors.red,),
         ],
       ),
     );
